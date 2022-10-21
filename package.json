@@ -1,0 +1,23 @@
+{
+  "name": "print",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.11.0",
+    "cors": "^2.8.5",
+    "danfojs": "^0.3.4",
+    "document": "^0.4.7",
+    "express": "^4.17.2",
+    "node-html-to-image": "^3.2.0",
+    "node-thermal-printer": "^4.1.2",
+    "node-windows": "^1.0.0-beta.6",
+    "printer": "^0.4.0",
+    "window": "^4.2.7"
+  }
+}

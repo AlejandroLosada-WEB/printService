@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <script>
+      /*  (async () => {
+  const rawResponse = await fetch('http://localhost:3009/caja/192.168.1.44', {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({  
+    "caja": {
+        "respuesta": [
+            {
+                "_id": "61cc3d3131dcab0d2bfcd27d",
+                "_id_mesa": "6",
+                "_id_producto": "61a25d5e96f56010847552b3",
+                "fecha": "2021-12-29T10:49:21.988Z",
+                "imagen": "assets/empresas/Polymnia F Pruebas-618183025cdbfa2360606994/productos/<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /api/productos/img/productos/</pre>\n</body>\n</html>\n",
+                "nombre": "Ración chuññasquitas de ternera a la brasa con patatas",
+                "precio": 1.11,
+                "precioConIva": 1000.23,
+                "ivaProducto": 0.12,
+                "pagado": false,
+                "tipoPagamiento": "No pagado",
+                "servido": true,
+                "tipo": "bar",
+                "categoria": "refrescos",
+                "_id_franquicia": "618183025cdbfa2360606994",
+                "_id_principal": "618180a240448d2398804ea9",
+                "_id_franquicia_iv": "616c656a616e64726f6c6f736164616d",
+                "_id_principal_iv": "616c656a616e64726f6c6f736164616d",
+                "notas": "",
+                "borrado": false,
+                "macAddr": "00-FF-7A-E9-E6-9A",
+                "__v": 0
+            },
+            {
+              "_id": "61cc3d3131dcab0d2bfcd27d",
+              "_id_mesa": "6",
+              "_id_producto": "61a25d5e96f56010847552b3",
+              "fecha": "2021-12-29T10:49:21.988Z",
+              "imagen": "assets/empresas/Polymnia F Pruebas-618183025cdbfa2360606994/productos/<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /api/productos/img/productos/</pre>\n</body>\n</html>\n",
+              "nombre": "Ración chuññasquitas de ternera a la brasa con patatas",
+              "precio": 1.11,
+              "precioConIva": 1000.23,
+              "ivaProducto": 0.12,
+              "pagado": false,
+              "tipoPagamiento": "No pagado",
+              "servido": true,
+              "tipo": "bar",
+              "categoria": "refrescos",
+              "_id_franquicia": "618183025cdbfa2360606994",
+              "_id_principal": "618180a240448d2398804ea9",
+              "_id_franquicia_iv": "616c656a616e64726f6c6f736164616d",
+              "_id_principal_iv": "616c656a616e64726f6c6f736164616d",
+              "notas": "",
+              "borrado": false,
+              "macAddr": "00-FF-7A-E9-E6-9A",
+              "__v": 0
+          }
+        ],
+        "datos": {
+            "nombreFranquicia": "Polymnia",
+            "cif": "00000000",
+            "numeroFactura": "27/2021",
+            "mesa": "6",
+            "fechaFactura": "29/12/2021",
+            "efectivo": 0
+        }
+    }
+})
+  });
+  const content = await rawResponse.json();
+
+  console.log(content);
+})();*/
+
+
+
+
+(async () => {
+  const rawResponse = await fetch('http://localhost:3009/camarero/1/192.168.1.44', {
+    method: 'GET',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    
+  });
+  const content = await rawResponse.json();
+
+  console.log(content);
+})()
+    </script>
+</body>
+</html>
